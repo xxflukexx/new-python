@@ -1,0 +1,15 @@
+# print('-----------')
+# print("KPH\tMPH")
+# print('-----------')
+# for kph in range(60, 140, 10):
+#     mph = kph * 0.6214
+#     print(kph,"\t", format(mph,".1f"))
+# print("---------------")
+
+print('-----------')
+print("MPH\tKPH")
+print('-----------')
+for mph in range(60, 140, 10):
+    kph = mph * 1.609344
+    print(mph,"\t", format(kph,".1f"))
+print("---------------")
