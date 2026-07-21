@@ -14,4 +14,3 @@ elif option == '3':
     print(f"{num1}x{num2} = {num1*num2}")
 elif option == '4':
     print(f"{num1}/{num2} = {num1/num2}")
-
